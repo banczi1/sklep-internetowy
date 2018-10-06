@@ -68,6 +68,11 @@
 			<c:if test="${userClickContact == true }">
 				<%@include file="contact.jsp"%>
 			</c:if>
+			
+			<!-- LADOWANIE TYLKO KIEDY UZYTKOWNIK KLIKNIE KONTAKT -->
+			<c:if test="${userClickAllProducts == true or userClickCategoryProducts == true}">
+				<%@include file="listProducts.jsp"%>
+			</c:if>
 
 		</div>
 

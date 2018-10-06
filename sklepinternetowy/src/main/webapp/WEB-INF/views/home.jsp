@@ -3,20 +3,7 @@
         <div class="row">
 
             <div class="col-md-3">
-                <p class="lead">Shop Name</p>
-                <div class="list-group">
-                    <a href="#" class="list-group-item">Category 1</a>
-                    <a href="#" class="list-group-item">Category 2</a>
-                    <a href="#" class="list-group-item">Category 3</a>
-                    <a href="#" class="list-group-item">Category 4</a>
-                    <a href="#" class="list-group-item">Category 5</a>
-                    <a href="#" class="list-group-item">Category 6</a>
-                    <a href="#" class="list-group-item">Category 7</a>
-                    <a href="#" class="list-group-item">Category 8</a>
-                    <a href="#" class="list-group-item">Category 9</a>
-                    <a href="#" class="list-group-item">Category 10</a>
-                    <a href="#" class="list-group-item">Category 11</a>
-                </div>
+                <%@include file="./shared/sidebar.jsp" %>
             </div>
 
             <div class="col-md-9">

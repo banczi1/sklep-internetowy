@@ -13,8 +13,14 @@
 		<javaee.version>7.0</javaee.version>
 		<spring.version>4.3.6.RELEASE</spring.version>
 	</properties>
-	<dependencies>
 
+	<dependencies>
+		<!-- linkowanie backend projekt -->
+		<dependency>
+			<groupId>net.ban</groupId>
+			<artifactId>sklepbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- JAVE EE API -->
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
@@ -33,15 +39,15 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- SPRING -->
-		
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
-			<!-- JSTL -->
-		
+
+		<!-- JSTL -->
+
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
